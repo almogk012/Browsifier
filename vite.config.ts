@@ -26,10 +26,13 @@ export default defineConfig(configEnv => ({
     lib: {
       entry: resolve('lib', 'main.tsx'),
       name: 'ReactFeatureFlag',
-      fileName: (format) => `my-lib-hello-2.${format}.js`,
+      fileName: (format) => `browsifier.${format}.js`,
     },
     rollupOptions: {
       external: ['react'],
     },
   },
+  server: {
+    port: 5500,
+  }
 }))

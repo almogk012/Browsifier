@@ -1,10 +1,10 @@
 {
-  "name": "boilerplate-lib-vite-react",
-  "version": "0.0.0",
-  "description": "Boilerplate to create library with Vite, Typescript and React.js",
+  "name": "browsifier",
+  "version": "0.0.1",
+  "description": "Browsifier",
   "license": "MIT",
-  "main": "./dist/my-lib-hello-2.umd.js",
-  "module": "./dist/my-lib-hello-2.es.js",
+  "main": "./dist/browsifier.umd.js",
+  "module": "./dist/browsifier.es.js",
   "types": "./dist/lib/main.d.ts",
   "scripts": {
     "dev": "vite",
@@ -21,20 +21,20 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/my-lib-hello-2.es.js",
-      "require": "./dist/my-lib-hello-2.umd.js"
+      "import": "./dist/browsifier.es.js",
+      "require": "./dist/browsifier.umd.js"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/panhavsilva/boilerplate-lib-vite-react.git"
+    "url": "git+https://github.com/almogk012/Browsifier.git"
   },
   "keywords": [],
-  "author": "Pâmela Vieira da Silva - @panhavsilva",
+  "author": "Almog kashany",
   "bugs": {
-    "url": "https://github.com/panhavsilva/boilerplate-lib-vite-react/issues"
+    "url": "https://github.com/almogk012/Browsifier/issues"
   },
-  "homepage": "https://github.com/panhavsilva/boilerplate-lib-vite-react#readme",
+  "homepage": "https://github.com/almogk012/Browsifier#readme",
   "peerDependencies": {
     "react": ">=17.x"
   },
